@@ -26,7 +26,7 @@ class Login extends CI_Controller {
                 $this->session->set_userdata("login", "true");
                 redirect("admin", "refresh");
             } else {
-                $this->session->set_flashdata("notif", "Tidak ada dalam system");
+                $this->session->set_flashdata("notifikasi", "Tidak ada dalam system");
                 redirect("login", "refresh");
             }
         } else {
@@ -38,7 +38,7 @@ class Login extends CI_Controller {
         $this->session->unset_userdata("id");
         $this->session->unset_userdata("login");
         $this->session->sess_destroy();
-        $this->session->set_flashdata("notif", "Sudah keluar dari sistem");
+        $this->session->set_flashdata("notifikasi", "Sudah keluar dari sistem");
         redirect('login');
     }
 

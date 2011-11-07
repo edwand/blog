@@ -79,12 +79,12 @@
 
                             <form action="<?php echo site_url("login/auth");?>" method="post">
                                       <?php
-                                      $notif =$this->session->flashdata("notif");
+                                      $notif =$this->session->flashdata("notifikasi");
 
                                       if(!empty($notif)){?>
 					<div class="notification information png_bg">
 						<div>
-							<?php echo $this->session->flashdata("notif");?>
+							<?php echo $this->session->flashdata("notifikasi");?>
 						</div>
 					</div>
                                         <?php } ?>

@@ -4,13 +4,13 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 		<title>Steal My Admin</title>
-                <link rel="stylesheet" href="<?php base_url();?>theme/admin/css/960.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?php base_url();?>theme/admin/css/template.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="<?php base_url();?>theme/admin/css/colour.css" type="text/css" media="screen" charset="utf-8" />
+                <link rel="stylesheet" href="<?php echo base_url();?>theme/admin/css/960.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="<?php echo base_url();?>theme/admin/css/template.css" type="text/css" media="screen" charset="utf-8" />
+		<link rel="stylesheet" href="<?php echo base_url();?>theme/admin/css/colour.css" type="text/css" media="screen" charset="utf-8" />
 		<!--[if IE]><![if gte IE 6]><![endif]-->
-		<script src="<?php base_url();?>theme/admin/js/glow/1.7.0/core/core.js" type="text/javascript"></script>
-		<script src="<?php base_url();?>theme/admin/js/glow/1.7.0/widgets/widgets.js" type="text/javascript"></script>
-		<link href="<?php base_url();?>theme/admin/js/glow/1.7.0/widgets/widgets.css" type="text/css" rel="stylesheet" />
+		<script src="<?php echo base_url();?>theme/admin/js/glow/1.7.0/core/core.js" type="text/javascript"></script>
+		<script src="<?php echo base_url();?>theme/admin/js/glow/1.7.0/widgets/widgets.js" type="text/javascript"></script>
+		<link href="<?php echo base_url();?>theme/admin/js/glow/1.7.0/widgets/widgets.css" type="text/css" rel="stylesheet" />
 		<script type="text/javascript">
 			glow.ready(function(){
 				new glow.widgets.Sortable(
