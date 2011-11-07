@@ -7,7 +7,7 @@ class Admin extends CI_Controller{
     }
     
     function index(){
-        echo 'tampilan dashbor';
+        $this->load->view('admin');
     }
     
 }
