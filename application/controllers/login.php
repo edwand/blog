@@ -14,7 +14,7 @@ class Login extends CI_Controller {
         $this->load->view('login');
     }
 
-    function otentik() {
+    function auth() {
         $this->form_validation->set_rules("username", "username", "required");
         $this->form_validation->set_rules("password", "password", "required");
         if ($this->form_validation->run() == true) {
